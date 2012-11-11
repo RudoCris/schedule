@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(:version => 20121107211425) do
 
   create_table "subjects", :force => true do |t|
     t.string   "title"
+    t.string   "classroom"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
